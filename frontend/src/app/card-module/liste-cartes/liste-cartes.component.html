@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let carte of cartes">
+      <div>Nom de la carte: {{ carte.nomCarte }}</div>
+      <div>Code de la carte: {{ carte.codeCarte }}</div>
+      <div>CCV: {{ carte.ccv }}</div>
+      <div>Expiration: {{ carte.expiration.mois }}/{{ carte.expiration.annee }}</div>
+    </li>
+  </ul>
